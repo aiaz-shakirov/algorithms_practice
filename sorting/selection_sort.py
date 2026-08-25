@@ -6,5 +6,6 @@ def selection_sort(arr):
                 min_index = j
         arr[i], arr[min_index] = arr[min_index], arr[i]
     return arr
+
 result = selection_sort([5, 2, 8, 1, 9, 3])
 print(f"После сортировки выбором: {result}")
